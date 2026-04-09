@@ -1,0 +1,72 @@
+[
+  {
+    "nom": "Paris",
+    "code": "75056",
+    "codeDepartement": "75",
+    "codeRegion": "11",
+    "population": 2161000
+  },
+  {
+    "nom": "Marseille",
+    "code": "13055",
+    "codeDepartement": "13",
+    "codeRegion": "93",
+    "population": 877215
+  },
+  {
+    "nom": "Lyon",
+    "code": "69123",
+    "codeDepartement": "69",
+    "codeRegion": "84",
+    "population": 522228
+  },
+  {
+    "nom": "Toulouse",
+    "code": "31555",
+    "codeDepartement": "31",
+    "codeRegion": "76",
+    "population": 493465
+  },
+  {
+    "nom": "Nantes",
+    "code": "44109",
+    "codeDepartement": "44",
+    "codeRegion": "52",
+    "population": 323204
+  },
+  {
+    "nom": "Lille",
+    "code": "59350",
+    "codeDepartement": "59",
+    "codeRegion": "32",
+    "population": 236710
+  },
+  {
+    "nom": "Rennes",
+    "code": "35238",
+    "codeDepartement": "35",
+    "codeRegion": "53",
+    "population": 225081
+  },
+  {
+    "nom": "Bordeaux",
+    "code": "33063",
+    "codeDepartement": "33",
+    "codeRegion": "75",
+    "population": 261804
+  },
+  {
+    "nom": "Montpellier",
+    "code": "34172",
+    "codeDepartement": "34",
+    "codeRegion": "76",
+    "population": 302454
+  },
+  {
+    "nom": "Strasbourg",
+    "code": "67482",
+    "codeDepartement": "67",
+    "codeRegion": "44",
+    "population": 291709
+  }
+]

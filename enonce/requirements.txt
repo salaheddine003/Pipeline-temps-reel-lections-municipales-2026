@@ -1,0 +1,8 @@
+confluent-kafka
+cassandra-driver
+requests
+streamlit
+pandas
+plotly
+folium
+streamlit-folium

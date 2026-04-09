@@ -1,0 +1,25 @@
+# Environnement
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Données temporaires
+*.tmp

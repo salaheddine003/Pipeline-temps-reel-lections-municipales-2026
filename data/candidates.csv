@@ -1,0 +1,11 @@
+candidate_id,candidate_name,party,political_block
+C01,Liste France Insoumise Locale,LFI,extreme_gauche
+C02,Liste Socialiste Citoyenne,PS,gauche
+C03,Liste Ecologiste Alliance Gauche,ECO,gauche
+C04,Liste Renaissance Locale,REN,centre
+C05,Liste MoDem Metropole,MDM,centre
+C06,Liste Les Republicains Ville,LR,droite
+C07,Liste Rassemblement National,RN,droite_nationale
+C08,Liste UDR Territoriale,UDR,droite_nationale
+C09,Liste Citoyenne Sans Etiquette,SE,autre
+C10,Liste Regionaliste Locale,REG,autre
