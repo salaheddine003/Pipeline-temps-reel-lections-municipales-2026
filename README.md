@@ -233,8 +233,12 @@ Graphique en barres horizontales affichant les votes cumulés par bloc : **Gauch
 ### 2. Répartition par parti / liste
 Graphique en barres classant les 10 partis par nombre de votes. **LR** (bleu) domine avec ~51k votes, suivi de **PS** (rouge), **ECO** (vert), **REN** (jaune), **MDM** (orange), **LFI** (rouge foncé) autour de ~25k chacun. **RN** et **UDR** (bleus) suivent à ~18k, puis **SE** (gris) et **REG** (vert foncé) à ~8k.
 
+![Répartition par parti](https://github.com/user-attachments/assets/b8ae872c-315b-4990-a5e7-6789841eacdf)
+
 ### 3. Évolution temporelle des votes
 Courbe chronologique (axe X = heure UTC, axe Y = nombre de votes) montrant l'évolution minute par minute. Un pic initial massif (~220k votes) lors du lancement du producteur, puis stabilisation avec des petits volumes lors des relances successives.
+
+![Évolution temporelle](https://github.com/user-attachments/assets/f0547268-08b2-4f19-9302-aba7d2bc5006)
 
 ### 4. Carte de France — Bloc politique dominant par département
 Carte interactive Leaflet/Folium de la France métropolitaine. Chaque département est coloré selon son **bloc politique dominant** :
@@ -243,12 +247,16 @@ Carte interactive Leaflet/Folium de la France métropolitaine. Chaque départeme
 - 🔵 Bleu = Droite ou Droite nationale
 - ⚪ Gris = Autre
 
+![Carte de France](https://github.com/user-attachments/assets/39210045-d1a6-456a-8909-b2f1e12fada6)
+
 L'opacité est proportionnelle à la part du bloc leader. Au survol, un tooltip affiche le nom et code du département. Une légende en bas à gauche indique la correspondance couleur ↔ bloc.
 
 ### 5. Top communes & classement candidats
 Deux graphiques côte à côte en barres horizontales :
 - **Top 10 communes** les plus actives (ex : Valmeinier, Septmoncel les Molunes, Saint-Lubin-de-la-Haye...) avec ~15-20 votes chacune
 - **Classement des candidats** avec le nom complet de la liste (ex : "Liste Les Républicains Ville" en tête à ~50k, suivi des listes Socialiste, Écologiste, Renaissance, MoDem, LFI autour de ~25k)
+
+![Top communes et candidats](https://github.com/user-attachments/assets/b116de7b-246b-4850-8680-2dc5d072ca3d)
 
 ---
 
