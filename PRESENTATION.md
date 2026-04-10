@@ -147,7 +147,7 @@ Producteur  →  Kafka (3 topics)  →  Validateur  →  ksqlDB  →  Cassandra 
 ## 👥 Équipe
 
 - **Thanina Bellahsene** — thaninabellahsene2208@gmail.com
-- **J. Bouhadoun** — jbouhadoun@gmail.com
+- **Salaheddine Abbar** — salaheddine.abbar@gmail.com
 
 ---
 

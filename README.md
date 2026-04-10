@@ -240,7 +240,7 @@ Les données se rafraîchissent automatiquement toutes les 30 secondes.
 | Nom | Email |
 |-----|-------|
 | Thanina Bellahsene | thaninabellahsene2208@gmail.com |
-| J. Bouhadoun | jbouhadoun@gmail.com |
+| Salaheddine Abbar | salaheddine.abbar@gmail.com |
 
 ---
 
