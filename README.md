@@ -228,6 +228,8 @@ Le dashboard Streamlit (http://localhost:8501) affiche en temps réel les résul
 ### 1. Répartition par bloc politique
 Graphique en barres horizontales affichant les votes cumulés par bloc : **Gauche** (rouge foncé), **Droite** (bleu marine), **Centre** (orange/doré), **Droite nationale** (bleu), **Extrême gauche** (rouge), **Autre** (gris). Les 3 premiers blocs (Gauche, Droite, Centre) sont au coude-à-coude autour de ~50k votes chacun.
 
+![Répartition par bloc politique](https://github.com/user-attachments/assets/36bfb56e-f439-4955-895e-913a53e6b8b9)
+
 ### 2. Répartition par parti / liste
 Graphique en barres classant les 10 partis par nombre de votes. **LR** (bleu) domine avec ~51k votes, suivi de **PS** (rouge), **ECO** (vert), **REN** (jaune), **MDM** (orange), **LFI** (rouge foncé) autour de ~25k chacun. **RN** et **UDR** (bleus) suivent à ~18k, puis **SE** (gris) et **REG** (vert foncé) à ~8k.
 
