@@ -223,15 +223,30 @@ streamlit run enonce/src/dashboard_streamlit.py
 
 ## 📊 Dashboard
 
-Le dashboard Streamlit affiche en temps réel :
+Le dashboard Streamlit (http://localhost:8501) affiche en temps réel les résultats électoraux. Les données se rafraîchissent automatiquement toutes les 30 secondes.
 
-- **KPI** : votes valides, candidat en tête
-- **Graphiques** : répartition par bloc politique et par parti
-- **Série temporelle** : évolution des votes par minute
-- **Carte de France** : couleur politique dominante par département (Leaflet/Folium)
-- **Classements** : top 10 communes, classement des candidats
+### 1. Répartition par bloc politique
+Graphique en barres horizontales affichant les votes cumulés par bloc : **Gauche** (rouge foncé), **Droite** (bleu marine), **Centre** (orange/doré), **Droite nationale** (bleu), **Extrême gauche** (rouge), **Autre** (gris). Les 3 premiers blocs (Gauche, Droite, Centre) sont au coude-à-coude autour de ~50k votes chacun.
 
-Les données se rafraîchissent automatiquement toutes les 30 secondes.
+### 2. Répartition par parti / liste
+Graphique en barres classant les 10 partis par nombre de votes. **LR** (bleu) domine avec ~51k votes, suivi de **PS** (rouge), **ECO** (vert), **REN** (jaune), **MDM** (orange), **LFI** (rouge foncé) autour de ~25k chacun. **RN** et **UDR** (bleus) suivent à ~18k, puis **SE** (gris) et **REG** (vert foncé) à ~8k.
+
+### 3. Évolution temporelle des votes
+Courbe chronologique (axe X = heure UTC, axe Y = nombre de votes) montrant l'évolution minute par minute. Un pic initial massif (~220k votes) lors du lancement du producteur, puis stabilisation avec des petits volumes lors des relances successives.
+
+### 4. Carte de France — Bloc politique dominant par département
+Carte interactive Leaflet/Folium de la France métropolitaine. Chaque département est coloré selon son **bloc politique dominant** :
+- 🔴 Rouge/rose = Gauche ou Extrême gauche
+- 🟠 Orange/doré = Centre
+- 🔵 Bleu = Droite ou Droite nationale
+- ⚪ Gris = Autre
+
+L'opacité est proportionnelle à la part du bloc leader. Au survol, un tooltip affiche le nom et code du département. Une légende en bas à gauche indique la correspondance couleur ↔ bloc.
+
+### 5. Top communes & classement candidats
+Deux graphiques côte à côte en barres horizontales :
+- **Top 10 communes** les plus actives (ex : Valmeinier, Septmoncel les Molunes, Saint-Lubin-de-la-Haye...) avec ~15-20 votes chacune
+- **Classement des candidats** avec le nom complet de la liste (ex : "Liste Les Républicains Ville" en tête à ~50k, suivi des listes Socialiste, Écologiste, Renaissance, MoDem, LFI autour de ~25k)
 
 ---
 
